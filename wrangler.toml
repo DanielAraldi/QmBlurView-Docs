@@ -1,0 +1,3 @@
+name = "blurview"
+account_id = "c5b6cc8c32e489a3afa2efff29710167"
+pages_build_output_dir = "docs/.vitepress/dist"
