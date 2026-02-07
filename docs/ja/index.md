@@ -8,13 +8,13 @@ hero:
     src: /icon.jpg
     alt: QmBlurView Logo
   actions:
-    - theme: brand
+    - theme: mimicry-brand
       text: クイックスタート
       link: /ja/getting-started
-    - theme: brand
+    - theme: mimicry
       text: GitHub
       link: https://github.com/QmDeve/QmBlurView
-    - theme: alt
+    - theme: mimicry
       text: デモをダウンロード
       link: https://github.com/QmDeve/QmBlurView/blob/master/app/release/app-release.apk?raw=true
 
@@ -77,9 +77,8 @@ const projects = [
 [![Star History](https://starchart.qmdeve.com/QmDeve/QmBlurView.svg?variant=adaptive)](https://starchart.qmdeve.com/QmDeve/QmBlurView)
 
 ## ディスカッション
-<a href="https://t.me/QmDeve" target="_blank">
-  <img src="https://img.shields.io/badge/Telegram%20Group-@QmDeve-blue?style=for-the-badge&logo=telegram" style="border-radius: 8px;">
-</a>
+
+Telegram: <a href="https://t.me/qmdeve" target="_blank">QmDeve</a>
 
 ## ライセンス
 

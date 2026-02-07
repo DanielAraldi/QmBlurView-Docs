@@ -5,7 +5,6 @@ import { nextTick, provide, watchEffect } from 'vue'
 
 const { isDark, lang } = useData()
 
-// 深色模式切换动画
 const enableTransitions = () =>
   'startViewTransition' in document &&
   window.matchMedia('(prefers-reduced-motion: no-preference)').matches
@@ -40,7 +39,6 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
   )
 })
 
-// 语言设置到 cookie
 watchEffect(() => {
   if (inBrowser) {
     document.cookie = `nf_lang=${lang.value}; expires=Mon, 1 Jan 2030 00:00:00 UTC; path=/`

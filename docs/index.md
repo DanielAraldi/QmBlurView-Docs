@@ -8,13 +8,13 @@ hero:
     src: /icon.jpg
     alt: QmBlurView Logo
   actions:
-    - theme: brand
+    - theme: mimicry-brand
       text: Quick Start
       link: /getting-started
-    - theme: brand
+    - theme: mimicry
       text: GitHub
       link: https://github.com/QmDeve/QmBlurView
-    - theme: alt
+    - theme: mimicry
       text: Download Demo
       link: https://github.com/QmDeve/QmBlurView/blob/master/app/release/app-release.apk?raw=true
 
@@ -76,12 +76,10 @@ const projects = [
 
 [![Star History](https://starchart.qmdeve.com/QmDeve/QmBlurView.svg?variant=adaptive)](https://starchart.qmdeve.com/QmDeve/QmBlurView)
 
-## Discuss
-<a href="https://t.me/QmDeve" target="_blank">
-  <img src="https://img.shields.io/badge/Telegram%20Group-@QmDeve-blue?style=for-the-badge&logo=telegram" style="border-radius: 8px;">
-</a><br><a href="https://qm.qq.com/q/NBHRYhce4y" target="_blank">
-  <img src="https://img.shields.io/badge/QQ%20Group-1054049593-blue?style=for-the-badge&logo=qq" style="border-radius: 8px;">
-</a>
+## Discuss Groups
+Telegram: <a href="https://t.me/qmdeve" target="_blank">QmDeve</a>
+
+QQ Group: <a href="https://qm.qq.com/q/LVWMNlHbUK" target="_blank">1054049593</a>
 
 ## License
 
