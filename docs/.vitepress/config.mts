@@ -254,7 +254,8 @@ export default defineConfig({
               { text: 'Picasso 集成', link: '/zh/quick-start/blur-transformation/picasso-integration.md' }
             ]
           },
-          { text: '更新日志', link: '/update-log.md' }
+          { text: '更新日志', link: '/update-log.md' },
+          { text: '广告', link: '/zh/advertising.md' }
         ]
       }
     },

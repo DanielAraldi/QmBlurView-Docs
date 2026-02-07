@@ -1,5 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
-import MyProjects from './components/MyProjects.vue'
+import MyProjects from './components/Projects.vue'
 import Layout from './Layout.vue'
 import './style.css'
 import AdUnit from './components/AdUnit.vue'
