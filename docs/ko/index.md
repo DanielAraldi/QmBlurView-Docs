@@ -27,43 +27,7 @@ features:
     details: Glide 및 Picasso용 내장 변환을 통해 이미지에 쉽게 블러 효과를 추가할 수 있습니다.
 ---
 
-<script setup>
-import { VPTeamMembers } from 'vitepress/theme'
-
-const members = [
-  {
-    avatar: 'https://www.github.com/QmDeve.png',
-    name: 'Donny Yale',
-    title: 'Creator',
-    org: 'QmDeve',
-    orgLink: 'https://qmdeve.com',
-    links: [
-      { icon: 'github', link: 'https://github.com/QmDeve' },
-      { icon: 'gmail', link: 'mailto:donny@qmdeve.com' },
-      { icon: 'telegram', link: 'https://t.me/donny_yale' }
-    ]
-  },
-  {
-    avatar: 'https://www.github.com/sbaiahmed1.png',
-    name: 'Ahmed Sbai',
-    title: 'Contributor',
-    links: [
-      { icon: 'github', link: 'https://github.com/sbaiahmed1' }
-    ]
-  }
-]
-
-const projects = [
-  {
-    title: 'AndroidLiquidGlassView',
-    description: 'iOS 26 액체 유리 효과의 Android 모방, AndroidLiquidGlassView 라이브러리는 실제 굴절 및 분산 효과를 가지고 있습니다',
-    link: 'https://liquidglass.qmdeve.com',
-    tags: ['Android Lib', 'LiquidGlass', 'iOS 26']
-  }
-]
-</script>
-
-<VPTeamMembers size="small" :members />
+<Developers size="small" />
 
 ## Star History
 
@@ -99,4 +63,4 @@ SOFTWARE.
 
 ## 다른 프로젝트
 
-<MyProjects :projects="projects" />
+<Projects />

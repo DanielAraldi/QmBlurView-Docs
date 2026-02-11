@@ -1,7 +1,7 @@
 <template>
   <div class="my-projects">
     <div class="project-list">
-      <div v-for="project in projects" :key="project.title" class="project-card">
+      <div v-for="project in displayProjects" :key="project.title" class="project-card">
         <a :href="project.link" target="_blank" class="project-link">
           <div class="project-content">
             <div class="title-wrapper">
@@ -21,13 +21,16 @@
 </template>
 
 <script setup>
+import projects from '../data/projects'
+
 const props = defineProps({
   projects: {
     type: Array,
-    required: true,
-    default: () => []
+    default: () => projects
   }
 })
+
+const displayProjects = props.projects
 </script>
 
 <style scoped>

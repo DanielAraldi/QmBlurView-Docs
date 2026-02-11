@@ -27,43 +27,7 @@ features:
     details: Glide と Picasso 用の組み込みトランスフォーメーションにより、画像に簡単にブラー効果を追加できます。
 ---
 
-<script setup>
-import { VPTeamMembers } from 'vitepress/theme'
-
-const members = [
-  {
-    avatar: 'https://www.github.com/QmDeve.png',
-    name: 'Donny Yale',
-    title: 'Creator',
-    org: 'QmDeve',
-    orgLink: 'https://qmdeve.com',
-    links: [
-      { icon: 'github', link: 'https://github.com/QmDeve' },
-      { icon: 'gmail', link: 'mailto:donny@qmdeve.com' },
-      { icon: 'telegram', link: 'https://t.me/donny_yale' }
-    ]
-  },
-  {
-    avatar: 'https://www.github.com/sbaiahmed1.png',
-    name: 'Ahmed Sbai',
-    title: 'Contributor',
-    links: [
-      { icon: 'github', link: 'https://github.com/sbaiahmed1' }
-    ]
-  }
-]
-
-const projects = [
-  {
-    title: 'AndroidLiquidGlassView',
-    description: 'Android での iOS 26 リキッドガラス効果の模倣、AndroidLiquidGlassView ライブラリには実際の屈折と分散効果があります',
-    link: 'https://liquidglass.qmdeve.com',
-    tags: ['Android Lib', 'LiquidGlass', 'iOS 26']
-  }
-]
-</script>
-
-<VPTeamMembers size="small" :members />
+<Developers size="small" />
 
 ## Star History
 
@@ -99,4 +63,4 @@ SOFTWARE.
 
 ## 他のプロジェクト
 
-<MyProjects :projects="projects" />
+<Projects />

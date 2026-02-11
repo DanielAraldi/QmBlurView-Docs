@@ -27,44 +27,7 @@ features:
     details: 内置针对 Glide 和 Picasso 的变换支持，轻松为图片添加模糊效果。
 ---
 
-<script setup>
-import { VPTeamMembers } from 'vitepress/theme'
-
-const members = [
-  {
-    avatar: 'https://www.github.com/QmDeve.png',
-    name: 'Donny Yale',
-    title: 'Creator',
-    org: 'QmDeve',
-    orgLink: 'https://qmdeve.com',
-    links: [
-      { icon: 'github', link: 'https://github.com/QmDeve' },
-      { icon: 'gmail', link: 'mailto:donny@qmdeve.com' },
-      { icon: 'telegram', link: 'https://t.me/donny_yale' },
-      { icon: 'qq', link: 'https://qm.qq.com/q/l2ahC820iQ' },
-    ]
-  },
-  {
-    avatar: 'https://www.github.com/sbaiahmed1.png',
-    name: 'Ahmed Sbai',
-    title: 'Contributor',
-    links: [
-      { icon: 'github', link: 'https://github.com/sbaiahmed1' }
-    ]
-  }
-]
-
-const projects = [
-  {
-    title: 'AndroidLiquidGlassView',
-    description: 'Android 仿 iOS 26 液体玻璃效果，AndroidLiquidGlassView 库具有真实的折射和色散效果',
-    link: 'https://liquidglass.qmdeve.com',
-    tags: ['Android Lib', 'LiquidGlass', 'iOS 26']
-  }
-]
-</script>
-
-<VPTeamMembers size="small" :members />
+<Developers size="small" />
 
 ## Star History
 
@@ -101,6 +64,6 @@ SOFTWARE.
 ```
 
 
-## 我的其他项目
+## 其他项目
 
-<MyProjects :projects="projects" />
+<Projects />

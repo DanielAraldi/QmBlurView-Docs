@@ -27,43 +27,7 @@ features:
     details: تحويلات مدمجة لـ Glide و Picasso لإضافة تأثيرات التمويه إلى الصور بسهولة.
 ---
 
-<script setup>
-import { VPTeamMembers } from 'vitepress/theme'
-
-const members = [
-  {
-    avatar: 'https://www.github.com/QmDeve.png',
-    name: 'Donny Yale',
-    title: 'المنشئ',
-    org: 'QmDeve',
-    orgLink: 'https://qmdeve.com',
-    links: [
-      { icon: 'github', link: 'https://github.com/QmDeve' },
-      { icon: 'gmail', link: 'mailto:donny@qmdeve.com' },
-      { icon: 'telegram', link: 'https://t.me/donny_yale' }
-    ]
-  },
-  {
-    avatar: 'https://www.github.com/sbaiahmed1.png',
-    name: 'Ahmed Sbai',
-    title: 'المساهم',
-    links: [
-      { icon: 'github', link: 'https://github.com/sbaiahmed1' }
-    ]
-  }
-]
-
-const projects = [
-  {
-    title: 'AndroidLiquidGlassView',
-    description: 'تقليد Android لتأثير زجاج سائل iOS 26، مكتبة AndroidLiquidGlassView لها تأثير انكسار وتشتت حقيقي',
-    link: 'https://liquidglass.qmdeve.com',
-    tags: ['Android Lib', 'LiquidGlass', 'iOS 26']
-  }
-]
-</script>
-
-<VPTeamMembers size="small" :members />
+<Developers size="small" />
 
 ## تاريخ النجوم
 
@@ -99,4 +63,4 @@ SOFTWARE.
 
 ## مشروعاتي الأخرى
 
-<MyProjects :projects="projects" />
+<Projects />

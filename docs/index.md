@@ -27,43 +27,7 @@ features:
     details: Built-in transformations for Glide and Picasso to easily add blur effects to images.
 ---
 
-<script setup>
-import { VPTeamMembers } from 'vitepress/theme'
-
-const members = [
-  {
-    avatar: 'https://www.github.com/QmDeve.png',
-    name: 'Donny Yale',
-    title: 'Creator',
-    org: 'QmDeve',
-    orgLink: 'https://qmdeve.com',
-    links: [
-      { icon: 'github', link: 'https://github.com/QmDeve' },
-      { icon: 'gmail', link: 'mailto:donny@qmdeve.com' },
-      { icon: 'telegram', link: 'https://t.me/donny_yale' }
-    ]
-  },
-  {
-    avatar: 'https://www.github.com/sbaiahmed1.png',
-    name: 'Ahmed Sbai',
-    title: 'Contributor',
-    links: [
-      { icon: 'github', link: 'https://github.com/sbaiahmed1' }
-    ]
-  }
-]
-
-const projects = [
-  {
-    title: 'AndroidLiquidGlassView',
-    description: 'Android imitation of iOS 26 liquid glass effect, AndroidLiquidGlassView library has real refraction and dispersion effect',
-    link: 'https://liquidglass.qmdeve.com',
-    tags: ['Android Lib', 'LiquidGlass', 'iOS 26']
-  }
-]
-</script>
-
-<VPTeamMembers size="small" :members />
+<Developers size="small" />
 
 ## Star History
 
@@ -98,6 +62,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-## My Other Projects
+## Other Projects
 
-<MyProjects :projects="projects" />
+<Projects />
