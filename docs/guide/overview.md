@@ -23,11 +23,6 @@ The library is built with performance in mind, utilizing native C++ code to ensu
 Just want to try it out? Go to [Getting Started](./getting-started.md).
 :::
 
-## Discuss Groups
-Telegram: <a href="https://t.me/qmdeve" target="_blank">QmDeve</a>
-
-QQ Groups: <a href="https://qm.qq.com/q/vnofi1hgFc" target="_blank">1046829337</a>
-
 ---
 
 ::: tip
