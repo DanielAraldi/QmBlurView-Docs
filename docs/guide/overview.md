@@ -22,9 +22,3 @@ The library is built with performance in mind, utilizing native C++ code to ensu
 ::: tip
 Just want to try it out? Go to [Getting Started](./getting-started.md).
 :::
-
----
-
-::: tip
-if you want to sponsor this project or us, Please > <a href="./sponsor" target="_blank">Sponsor Us</a>
-:::
