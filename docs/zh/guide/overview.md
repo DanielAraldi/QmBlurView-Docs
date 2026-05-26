@@ -22,14 +22,3 @@ next:
 ::: tip
 想要快速使用？请前往 [快速开始](./getting-started.md)。
 :::
-
-## 交流群
-QQ 群: <a href="https://qm.qq.com/q/vnofi1hgFc" target="_blank">1046829337</a>
-
-Telegram: <a href="https://t.me/qmdeve" target="_blank">QmDeve</a>
-
----
-
-::: tip
-如果您想赞助本项目或我们，请前往 > <a href="./sponsor" target="_blank">赞助我们</a>
-:::
