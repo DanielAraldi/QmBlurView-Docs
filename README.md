@@ -8,10 +8,6 @@ To view the document, please visit:
 
 - [English Version](https://blurview.qmdeve.com)
 - [简体中文](https://blurview.qmdeve.com/zh/)
-- [日本語バージョン](https://blurview.qmdeve.com/ja/)
-- [Portuguese](https://blurview.qmdeve.com/pt/)
-- [Русская версия](https://blurview.qmdeve.com/ru/)
-- [الإصدار العربي](https://blurview.qmdeve.com/ar/)
 
 ## GitHub
 
