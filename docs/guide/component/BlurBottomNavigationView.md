@@ -12,7 +12,7 @@ To use this view, make sure to integrate `navigation` Dependencies:
 ```groovy :no-line-numbers
 dependencies {
     // BottomNavigationView Dependencies
-    implementation '{{GROUP_ID}}:navigation:{{VERSION}}'
+    implementation 'com.qmdeve.blurview:navigation:1.2.0'
 }
 ```
 :::

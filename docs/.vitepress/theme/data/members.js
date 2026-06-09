@@ -1,23 +1,29 @@
 export default [
   {
-    avatar: '/img/donny_yang.jpg',
+    avatar: 'https://github.com/QmDeve.png',
     name: 'Donny Yang',
     title: 'Creator',
     org: 'qmdeve.com',
     orgLink: 'https://qmdeve.com',
     links: [
       { icon: 'github', link: 'https://github.com/QmDeve' },
-      { icon: 'gmail', link: 'mailto:donny@qmdeve.com' },
-      { icon: 'telegram', link: 'https://t.me/donny_yang' },
-      { icon: 'qq', link: 'https://qm.qq.com/q/QCXyYKbSAG' }
+      { icon: 'gmail', link: 'mailto:donny@qmdeve.com' }
     ]
   },
   {
-    avatar: '/img/ahmed_sbai.jpg',
+    avatar: 'https://github.com/sbaiahmed1.png',
     name: 'Ahmed Sbai',
     title: 'Contributor',
     links: [
       { icon: 'github', link: 'https://github.com/sbaiahmed1' }
+    ]
+  },
+  {
+    avatar: 'https://github.com/DanielAraldi.png',
+    name: 'Daniel Sansão Araldi',
+    title: 'Contributor',
+    links: [
+      { icon: 'github', link: 'https://github.com/DanielAraldi' }
     ]
   }
 ]

@@ -12,7 +12,7 @@ next: false
 ```groovy
 dependencies {
     // BottomNavigationView Dependencies
-    implementation '{{GROUP_ID}}:navigation:{{VERSION}}'
+    implementation 'com.qmdeve.blurview:navigation:1.2.0'
 }
 ```
 :::

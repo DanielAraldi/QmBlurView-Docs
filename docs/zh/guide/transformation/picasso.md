@@ -12,7 +12,7 @@ next: false
 ```groovy :no-line-numbers
 dependencies {
     // QmBlurView Transform dependency
-    implementation '{{GROUP_ID}}:transform:{{VERSION}}'
+    implementation 'com.qmdeve.blurview:transform:1.2.0'
     
     // Picasso dependency
     implementation 'com.squareup.picasso:picasso:2.8'

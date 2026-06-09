@@ -14,18 +14,43 @@ GitHub: [QmDeve/QmBlurView](https://github.com/QmDeve/QmBlurView)
 
 ### v2.0.0 <Badge type="tip" text="Upcoming" /> <Badge type="tip" text="Planned" /> <Badge type="tip" text="Next Version" />
 - Improved performance and stability
+- Use Kotlin Refactor
 - Add new blur components and features
 - etc...
 
 ---
 
-### 2026-02-07 <Badge type="tip" text="v1.1.4" /> <Badge type="tip" text="Latest Version" />
+### 2026-06-07 <Badge type="tip" text="v1.2.0" /> <Badge type="tip" text="Latest Version" />
+- Add `ProgressiveBlurViewGroup` Component
+- Minor refactoring in `BlurViewGroup` to avoid redrawing
+
+---
+
+### 2026-05-20 <Badge type="tip" text="v1.1.5" />
+- Added New XML attribute topLeftCornerRadius:
+  - `topRightCornerRadius`
+  - `bottomLeftCornerRadius`
+  - `bottomRightCornerRadius`
+
+- Added New Method:
+  - `setTopLeftCornerRadius(float radius)`
+  - `setTopRightCornerRadius(float radius)`
+  - `setBottomLeftCornerRadius(float radius)`
+  - `setBottomRightCornerRadius(float radius)`
+  - `getTopLeftCornerRadius()`
+  - `getTopRightCornerRadius()`
+  - `getBottomLeftCornerRadius()`
+  - `getBottomRightCornerRadius()`
+
+---
+
+### 2026-02-07 <Badge type="tip" text="v1.1.4" />
 - Fix: prevent NPE in blur view canvas restoration
 - Fix: catch IndexOutOfBoundsException in blur rendering
 
 ---
 
-### 2026-01-19 <Badge type="tip" text="v1.1.3" /> <Badge type="tip" text="Latest Version" />
+### 2026-01-19 <Badge type="tip" text="v1.1.3" />
 - Change `Java 17` to `Java 11`
 - Change the code to `Java 11` syntax
 

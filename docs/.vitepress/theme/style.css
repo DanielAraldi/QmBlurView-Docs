@@ -18,10 +18,6 @@
   color: var(--text-color);
   font-weight: bold;
   transition: all 0.3s ease;
-  box-shadow:
-    5px 5px 10px var(--shadow-light),
-    -5px -5px 10px var(--shadow-dark);
-  border: 1px solid var(--border-color);
 }
 
 .VPButton.mimicry-brand {

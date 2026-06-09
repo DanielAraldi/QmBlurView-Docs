@@ -12,10 +12,10 @@ Before using `Transform`, make sure you have integrated the Glide library.
 ```groovy :no-line-numbers
 dependencies {
     // QmBlurView Transform dependency
-    implementation '{{GROUP_ID}}:transform:{{VERSION}}'
+    implementation 'com.qmdeve.blurview:transform:1.2.0'
 
     // Glide dependency
-    implementation 'com.github.bumptech.glide:glide:5.0.5'
+    implementation 'com.github.bumptech.glide:glide:5.0.7'
 }
 ```
 :::
